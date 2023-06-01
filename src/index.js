@@ -23,7 +23,7 @@ function MyArray(...args) {
     } 
  }
 
-const myArray = [1, 2, 3, 4, 5];
-console.log(myArray);
-myArray.reverse();
-console.log(myArray);
+const newArray = new MyArray (1, 2, 3, 4, 5);
+console.log(newArray);
+newArray.reverse();
+console.log(newArray);
